@@ -36,6 +36,11 @@ run end to end: the clusters that emerged, why the United States acts as a bridg
 overall sentiment skew, and an honest section on the method's limitations (entity-resolution
 errors, co-occurrence not implying a real relationship, and Western-source bias).
 
+A second, deeper write-up, [examples/analysis-2026-10-03.md](examples/analysis-2026-10-03.md),
+goes past the overview and pulls on a single thread (a FlyDubai cockpit-attack story),
+corroborating it across three outlets and stopping short of the contested motive to show where
+the tool hands off to human verification.
+
 See [PROJECT_SUMMARY.md](PROJECT_SUMMARY.md) for the milestone roadmap.
 
 ---
@@ -141,6 +146,7 @@ osint-ai/
 │   └── rag.py             # Chroma embeddings, retrieval, optional Ollama answer
 ├── examples/
 │   └── analysis-2026-09-11.md   # worked analyst write-up of a single run
+│   └── analysis-2026-10-03.md   # deeper write-up: one thread, cross-source corroboration
 ├── docs/
 │   └── images/            # screenshots used in this README
 └── data/                 # local SQLite DB, Chroma store, graph/map HTML (gitignored)
